@@ -1,0 +1,21 @@
+# Learning the Shell
+
+- **0-current_working_directory:** Absolute path name of the current working directory
+- **1-listit:** List the content of current directory
+- **2-bring_me_home:** Script that changes the working directory to the user's homa directory
+- **3-listfiles:** Display current directory contents in al long format
+- **4-listmorefiles:** Display current directory contents including hidden files with long format
+- **5-listfilesdigitonly:** Display current directory contents:
+- **6-firstdirectory:** Script that creates a directory named holberton in the /tmp/ directory
+- **7-movethatfile:** Move the file betty from /tmp/ to /tmp/holberton
+- **8-firstdelete:** Move the file betty from /tmp/holberton
+- **9-firstdirdeletion:** Delete the directory holberton that is in the /tmp directory
+- **10-back:** Script that changes the working directory to the previous one
+- **11-lists:** Script the lists all files in the current directory and the parent of the current directory
+- **12-file_type:** Script that prints the type of the file named iamafile in the /tmp directory
+- **13-symbolic_link:** Symbolic link to /bin/ls
+- **14-copy_html:** Create a script that copies all the HTML files from the current working directory to the parent of working directory
+- **15-lets_move:** Script that moves all files beginning with an uppercase letter to the directory /tmp/u
+- **16-clean_emacs:** Script that deletes all files in the current working directory that end with caracter ~
+- **17-tree:** A script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory
+- **18-commas:** A script that lists and sort files
