@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-ps -axu
+# Display lines containing the bash word in PID currently processes
+# shellcheck disable=SC2009
+ps -axuf | grep "bash"
