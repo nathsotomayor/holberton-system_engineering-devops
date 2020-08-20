@@ -2,8 +2,8 @@
 # Bash script that will display information about subdomains.
 # shellcheck disable=SC2086
 subdomains_config () {
-    DOMAIN="$1"
-    SUBDO="$2"
+    export DOMAIN="$1"
+    export SUBDO="$2"
 
     if [[ $SUBDO =~ ^$ ]]
     then
