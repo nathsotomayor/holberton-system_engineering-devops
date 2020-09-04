@@ -1,4 +1,4 @@
 #!/bin/bash
 # Backup all mysql databases
 mysqldump -uroot -p"$1" --all-databases > backup.sql
-tar -czf "$(date +%d-%m-%Y).tar.gz" backup.sql
+tar -czvf "$(date +%d-%m-%Y).tar.gz" backup.sql
