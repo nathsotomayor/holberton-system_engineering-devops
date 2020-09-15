@@ -10,11 +10,10 @@ if __name__ == "__main__":
     user_id = "{}/users/{}".format(url, sys.argv[1])
     username = requests.get(user_id).json().get('name')
     tasks = requests.get('{}/todos?userId={}'.format(url, sys.argv[1])).json()
-    complete_tasks = requests.get('{}/todos?userId={}&completed=true'
                                   .format(url, sys.argv[1])).json()
 
     with open('{}.csv'.format(sys.argv[1]), 'w') as csv_file:
         file_write = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
         for task in tasks:
             file_write.writerow([sys.argv[1], username, task['completed'],
-                                task['title']])
+                                 task['title']])
