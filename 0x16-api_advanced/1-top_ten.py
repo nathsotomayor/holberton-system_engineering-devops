@@ -5,7 +5,7 @@ for a given subreddit."""
 import requests
 
 
-def number_of_subscribers(subreddit):
+def top_ten(subreddit):
     """Function that queries Reddit API"""
     uri = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
     header = {"User-Agent": "My-User-Agent"}
